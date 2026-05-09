@@ -14,9 +14,7 @@ def register_infraction(user_id: int):
 
     messages = {
         "warned": (
-            "⚠️ *Aviso 1 de 2*\n\n"
-            "Sua mensagem foi identificada como fora do contexto.\n"
-            "Por favor, mantenha as interações relacionadas ao tema de estudo.\n\n"
+            "⚠️ *Atenção:* este ambiente é educacional e não permite esse tipo de linguagem.\n\n"
             "_Uma nova infração resultará em restrição de acesso._"
         ),
         "blocked_partial": (
