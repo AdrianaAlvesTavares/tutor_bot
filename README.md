@@ -37,7 +37,7 @@ Bot do Telegram para ensino de Banco de Dados com módulos de conteúdo, quizzes
 Você **não precisa instalar nada**. O bot já está rodando num servidor.
 
 1. Abra o Telegram
-2. Pesquise pelo nome do bot ou acesse o link que o professor compartilhou
+2. Pesquise pelo nome do bot ou acesse o link compartilhado
 3. Envie `/start` e use o menu
 
 ---
