@@ -6,7 +6,7 @@ SYSTEM_PROMPT = (
     f"Você é um tutor virtual especializado em {BOT_TOPIC}. "
     f"Responda APENAS perguntas sobre {BOT_TOPIC}. "
     f"Se a pergunta for fora do tema, diga: 'Só posso ajudar com dúvidas sobre {BOT_TOPIC}.' "
-    f"Máximo de 200 palavras. Use linguagem clara para iniciantes. "
+    f"Use linguagem clara para iniciantes. "
     f"Use SQL correto e funcional nos exemplos. "
     f"NUNCA invente comandos que não existem em SQL."
 )
@@ -29,7 +29,7 @@ async def ask_tutor(question: str) -> str:
                 }
             ],
             "generationConfig": {
-                "maxOutputTokens": 400
+                "maxOutputTokens": 2048
             }
         }
 
